@@ -37,7 +37,7 @@
     <Button
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Login"
+        android:text="login"
         android:textSize="20dp"
         android:textColor="#fff"
         android:id="@+id/button"
@@ -45,6 +45,35 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="48dp"
         android:background="#0AC756" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Have an Account?"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:id="@+id/textView2"
+        android:layout_marginBottom="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_toEndOf="@+id/textView2"
+        android:layout_marginLeft="32dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignTop="@+id/textView2"
+        android:textColor="#46A6E9" />
 
 
 </RelativeLayout>

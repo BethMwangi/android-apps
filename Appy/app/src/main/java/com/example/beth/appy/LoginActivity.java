@@ -19,17 +19,17 @@ public class LoginActivity  extends AppCompatActivity {
         addButtonClickListener();
     }
 
-//    private void addButtonClickListener() {
-//        Button button;
-//        button = (Button)findViewById(R.id.button);
-//
-//        button.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                Intent intent = new Intent(LoginActivity.this,);
-//                startActivity(intent);
-//            }
-//        });
-//    }
+    private void addButtonClickListener() {
+        Button button;
+        button = (Button)findViewById(R.id.button);
+
+        button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+               Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
+                startActivity(intent);
+            }
+        });
+    }
 
 }
